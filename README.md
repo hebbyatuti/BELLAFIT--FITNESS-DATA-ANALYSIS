@@ -3,6 +3,14 @@ In this project, I analyzed fitness data using R to uncover insights for increas
 focused products, identifying target age groups, popular activities, and health
 oriented product preferences
 
+### Table of Contents
+- [Data Sources](Data-sources)
+- [Tools](Tools)
+- [Data preparation & cleaning.](Data-preparation-cleaning.)
+- [Explatory Data Analysis](Explatory-Data-Analysis)
+- [R Code](R-Code)
+- [Conclusion & Recommendation](Conclusion-&-Recommendation)
+
 ### Data Sources
 Fitness_data; I obtained the "fitness_capstone_csv."  data used for the analysis from github.
 
@@ -18,16 +26,15 @@ To explore the data before the analysis I performed the following tasks.
  3. Checked for duplicates
 
 ### Explatory Data Analysis
-Some of the business questions I answered?
+- Answered business questions to identify the target market, the best-selling products, and new customized products.
+  Some of the business questions I answered?
 - What is the age distribution and the target market group?
 - How does hydration level affect fitness?
 - What is the most common activity?
 - Which activity  burns the most calories?
-- How does health conditions influence fitness?
+- How do health conditions influence fitness?
 
-### Data Analysis
-- Answered business questions to I identify the target market, the best selling products and new customized products.
-
+### R Code
 ```R
 BF <- read_csv("fitness_data_capstone.csv")
 view(BF)
@@ -124,7 +131,7 @@ view(fitness)
    view(age)
 ```
 ### Conclusion & Recommendation.
-- From the Age distribution,  Bella fit can target their new marketing campaigns to 24 & 40 year old women. 
-- HIIT (High Intensity training) is the most common  activity, followed by running and cycling.  The company can maximize profit by pushing and marketing products for HIIT such training shoes, watches, and bracelets that measure heart rate and calorie burn. 
+- From the Age distribution,  Bella fit can target their new marketing campaigns to 24 & and 40-year-old women. 
+- HIIT (High Intensity training) is the most common  activity, followed by running and cycling.  The company can maximize profit by pushing and marketing products for HIIT, such as training shoes, watches, and bracelets that measure heart rate and calorie burn. 
 - Stress levels are lower when people are hydrated. The marketing team can promote their water bottle  with this campaign
 
