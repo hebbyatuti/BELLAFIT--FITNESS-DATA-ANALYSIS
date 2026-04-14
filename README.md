@@ -25,7 +25,7 @@ To explore the data before the analysis I performed the following tasks.
  2. Checked for missing values and nulls
  3. Checked for duplicates
 
-### Explatory Data Analysis
+### Exploratory Data Analysis
 - Answered business questions to identify the target market, the best-selling products, and new customized products.
   Some of the business questions I answered?
 - What is the age distribution and the target market group?
